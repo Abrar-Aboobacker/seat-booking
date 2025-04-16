@@ -1,0 +1,37 @@
+.seat-booking-system {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.seat-booking-system h1 {
+  margin-bottom: 30px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.booking-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+}
+
+/* Responsive layout */
+@media (min-width: 992px) {
+  .booking-container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .booking-container > div:first-child {
+    flex: 2;
+  }
+  
+  .booking-container > div:last-child {
+    flex: 1;
+  }
+}

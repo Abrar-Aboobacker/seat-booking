@@ -1,0 +1,82 @@
+.booking-summary {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booking-summary h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.selected-seats {
+  margin-bottom: 20px;
+}
+
+.selected-seats h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.selected-seats ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-seats li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-cost {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.total-cost h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: right;
+}
+
+.book-now-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-now-btn:hover {
+  background-color: #45a049;
+}
+
+.no-seats {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  margin: 20px 0;
+}
